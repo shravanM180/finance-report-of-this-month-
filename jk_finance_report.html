@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JK Pvt Ltd – Annual Financial Report FY 2025-26</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --ink: #14213d; --muted: #5b6577;
+    --line: #dde1e8; --accent: #1f5f8b; --good: #1b7f4b; --bad: #b3372f; --head: #14213d; --headink: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f141c; --card: #171e29; --ink: #e8ecf2; --muted: #96a0b2;
+      --line: #2a3445; --accent: #6bb0e0; --good: #4cc38a; --bad: #ef7d73; --head: #223049; --headink: #e8ecf2; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { background: var(--head); color: var(--headink); padding: 2.5rem 1.25rem; }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  header h1 { margin: 0 0 .25rem; font-size: clamp(1.6rem, 4vw, 2.4rem); line-height: 1.2; }
+  header p { margin: 0; opacity: .8; }
+  main { padding: 1.5rem 1.25rem 3rem; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 1.5rem; margin-bottom: 1.25rem; }
+  h2 { margin: 0 0 1rem; font-size: 1.3rem; }
+  .note { border-left: 4px solid var(--accent); background: var(--card); padding: .75rem 1rem;
+    margin-bottom: 1.25rem; color: var(--muted); border-radius: 0 8px 8px 0; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: .75rem; }
+  .kpi { border: 1px solid var(--line); border-radius: 8px; padding: .9rem 1rem; }
+  .kpi b { display: block; font-size: 1.5rem; }
+  .kpi span { color: var(--muted); font-size: .9rem; }
+  .scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th, td { padding: .55rem .75rem; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; white-space: normal; }
+  thead th { color: var(--muted); font-weight: 600; font-size: .9rem; }
+  tr.total td { font-weight: 700; background: color-mix(in srgb, var(--accent) 8%, transparent); }
+  .up { color: var(--good); } .down { color: var(--bad); }
+  .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; }
+  svg { width: 100%; height: auto; display: block; }
+  svg text { fill: var(--ink); font: 13px system-ui, sans-serif; }
+  svg .bar { fill: var(--accent); }
+  ol, ul { padding-left: 1.25rem; } li { margin-bottom: .4rem; }
+  footer { color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>JK Pvt Ltd – Annual Financial Report</h1>
+    <p>FY 2025-26 (1 April 2025 – 31 March 2026) · Amounts in ₹ lakhs</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <p class="note"><strong>Illustrative data.</strong> No actual books were provided. Replace these figures with JK Pvt Ltd's real numbers before use.</p>
+
+  <section aria-labelledby="summary">
+    <h2 id="summary">Executive summary</h2>
+    <p>Revenue grew 15.5% to ₹4,850 lakhs, gross margin improved to 40.0%, and net profit rose 45% to ₹546 lakhs. Operating cash flow of ₹640 lakhs funded ₹310 lakhs of capital expenditure and ₹180 lakhs of loan repayment.</p>
+    <div class="kpis">
+      <div class="kpi"><b>₹4,850</b><span>Revenue (+15.5%)</span></div>
+      <div class="kpi"><b>₹980</b><span>EBITDA (20.2% margin)</span></div>
+      <div class="kpi"><b>₹546</b><span>Profit after tax (+45.2%)</span></div>
+      <div class="kpi"><b>₹330</b><span>Free cash flow</span></div>
+      <div class="kpi"><b>29.5%</b><span>Return on equity</span></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="pl">
+    <h2 id="pl">Profit &amp; loss statement</h2>
+    <div class="scroll">
+    <table>
+      <thead><tr><th>Particulars</th><th>FY 2025-26</th><th>FY 2024-25</th><th>Change</th></tr></thead>
+      <tbody>
+        <tr><td>Revenue from operations</td><td>4,850</td><td>4,200</td><td class="up">+15.5%</td></tr>
+        <tr><td>Cost of goods sold</td><td>(2,910)</td><td>(2,583)</td><td>+12.7%</td></tr>
+        <tr class="total"><td>Gross profit</td><td>1,940</td><td>1,617</td><td class="up">+20.0%</td></tr>
+        <tr><td>Employee costs</td><td>(620)</td><td>(560)</td><td>+10.7%</td></tr>
+        <tr><td>Admin &amp; selling expenses</td><td>(340)</td><td>(310)</td><td>+9.7%</td></tr>
+        <tr class="total"><td>EBITDA</td><td>980</td><td>747</td><td class="up">+31.2%</td></tr>
+        <tr><td>Depreciation</td><td>(130)</td><td>(115)</td><td>+13.0%</td></tr>
+        <tr class="total"><td>EBIT</td><td>850</td><td>632</td><td class="up">+34.5%</td></tr>
+        <tr><td>Finance costs</td><td>(120)</td><td>(130)</td><td class="up">−7.7%</td></tr>
+        <tr class="total"><td>Profit before tax</td><td>730</td><td>502</td><td class="up">+45.4%</td></tr>
+        <tr><td>Tax (about 25.17%)</td><td>(184)</td><td>(126)</td><td>+46.0%</td></tr>
+        <tr class="total"><td>Profit after tax</td><td>546</td><td>376</td><td class="up">+45.2%</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="qtr">
+    <h2 id="qtr">Quarterly revenue</h2>
+    <svg viewBox="0 0 480 220" role="img" aria-label="Bar chart of quarterly revenue: Q1 1,090, Q2 1,180, Q3 1,260, Q4 1,320 lakhs">
+      <!-- scale: 1,320 lakhs = 150px -->
+      <rect class="bar" x="50"  y="55" width="70" height="125"/><text x="85"  y="45" text-anchor="middle">1,090</text><text x="85"  y="202" text-anchor="middle">Q1</text>
+      <rect class="bar" x="155" y="42" width="70" height="138"/><text x="190" y="32" text-anchor="middle">1,180</text><text x="190" y="202" text-anchor="middle">Q2</text>
+      <rect class="bar" x="260" y="33" width="70" height="147"/><text x="295" y="23" text-anchor="middle">1,260</text><text x="295" y="202" text-anchor="middle">Q3</text>
+      <rect class="bar" x="365" y="25" width="70" height="155"/><text x="400" y="15" text-anchor="middle">1,320</text><text x="400" y="202" text-anchor="middle">Q4</text>
+      <line x1="30" y1="180" x2="455" y2="180" stroke="currentColor" stroke-opacity=".3"/>
+    </svg>
+    <p>Revenue rose every quarter; Q4 was about 21% above Q1.</p>
+  </section>
+
+  <div class="two">
+    <section aria-labelledby="bs">
+      <h2 id="bs">Balance sheet (31 March 2026)</h2>
+      <div class="scroll">
+      <table>
+        <thead><tr><th>Item</th><th>₹ lakhs</th></tr></thead>
+        <tbody>
+          <tr><td>Net fixed assets</td><td>1,450</td></tr>
+          <tr><td>Inventory</td><td>620</td></tr>
+          <tr><td>Trade receivables</td><td>780</td></tr>
+          <tr><td>Cash &amp; bank</td><td>410</td></tr>
+          <tr><td>Other current assets</td><td>140</td></tr>
+          <tr class="total"><td>Total assets</td><td>3,400</td></tr>
+          <tr><td>Share capital</td><td>500</td></tr>
+          <tr><td>Reserves &amp; surplus</td><td>1,350</td></tr>
+          <tr><td>Long-term borrowings</td><td>700</td></tr>
+          <tr><td>Trade payables</td><td>540</td></tr>
+          <tr><td>Other current liabilities</td><td>310</td></tr>
+          <tr class="total"><td>Total equity &amp; liabilities</td><td>3,400</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section aria-labelledby="cf">
+      <h2 id="cf">Cash flow summary</h2>
+      <div class="scroll">
+      <table>
+        <thead><tr><th>Item</th><th>₹ lakhs</th></tr></thead>
+        <tbody>
+          <tr><td>Cash flow from operations</td><td>640</td></tr>
+          <tr><td>Capital expenditure</td><td>(310)</td></tr>
+          <tr class="total"><td>Free cash flow</td><td>330</td></tr>
+          <tr><td>Repayment of borrowings</td><td>(180)</td></tr>
+          <tr><td>Interest paid</td><td>(120)</td></tr>
+          <tr class="total"><td>Net increase in cash</td><td>30</td></tr>
+          <tr><td>Opening cash</td><td>380</td></tr>
+          <tr class="total"><td>Closing cash</td><td>410</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+  </div>
+
+  <section aria-labelledby="ratios">
+    <h2 id="ratios">Key financial ratios</h2>
+    <div class="scroll">
+    <table>
+      <thead><tr><th>Ratio</th><th>FY 2025-26</th></tr></thead>
+      <tbody>
+        <tr><td>Gross margin</td><td>40.0%</td></tr>
+        <tr><td>EBITDA margin</td><td>20.2%</td></tr>
+        <tr><td>Net profit margin</td><td>11.3%</td></tr>
+        <tr><td>Return on equity</td><td>29.5%</td></tr>
+        <tr><td>Current ratio</td><td>2.3x</td></tr>
+        <tr><td>Quick ratio</td><td>1.6x</td></tr>
+        <tr><td>Debt-to-equity</td><td>0.38x</td></tr>
+        <tr><td>Interest coverage (EBIT ÷ interest)</td><td>7.1x</td></tr>
+        <tr><td>Receivable / inventory / payable days</td><td>59 / 78 / 68</td></tr>
+        <tr><td>Cash conversion cycle</td><td>69 days</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="recs">
+    <h2 id="recs">Observations and recommendations</h2>
+    <p>Growth, margin expansion and lower finance costs all moved the right way, and leverage is low. Working capital is the main drag: about ₹1,400 lakhs is tied up in inventory and receivables.</p>
+    <ol>
+      <li>Cut receivable days from 59 to about 50 to release roughly ₹120 lakhs.</li>
+      <li>Reduce inventory days from 78 to about 65 with better demand planning.</li>
+      <li>Prepay part of the long-term loan if surplus cash builds.</li>
+      <li>Tie capex to returns, with a payback period under four years.</li>
+      <li>Report monthly and keep a rolling 12-month cash forecast.</li>
+    </ol>
+  </section>
+
+  <footer>Illustrative and unaudited. Not accounting, tax or investment advice; have final figures reviewed by a chartered accountant.</footer>
+</main>
+</body>
+</html>
